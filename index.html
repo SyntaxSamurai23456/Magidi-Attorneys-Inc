@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Magidi Attorneys Inc</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <meta name="description" content="Magidi Attorneys Inc — Trusted legal partner offering litigation, estates, transfers, family law, contracts, and personal injury claims across South Africa."/>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header fade-down">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <img src="images/Screenshot%202025-10-05%20195447.png" alt="Magidi Attorneys Inc logo" class="brand-logo" />
+        <span class="brand-text">Magidi Attorneys Inc</span>
+      </a>
+
+      <button id="nav-toggle" aria-label="Toggle navigation" class="nav-toggle">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="main-nav" class="main-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="phone-link" href="tel:+27735355074">073 535 5074</a>
+        <a class="icon-btn" href="https://www.instagram.com/magidi_attorneys_inc/" target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M17.5 6.5h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero fade-up">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <h1>Your Trusted Legal Partner in South Africa</h1>
+        <p class="lead">Professional. Transparent. Reliable legal solutions for individuals and businesses.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#contact">Book a Consultation</a>
+          <a class="btn ghost" href="#services">Our Services</a>
+        </div>
+      </div>
+      <div class="hero-visual scale-in">
+        <img src="logo.png" alt="Magidi Attorneys Logo" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section about fade-up">
+    <div class="container two-col">
+      <div class="col col-left">
+        <h2>About Magidi Attorneys Inc</h2>
+        <p>
+          Magidi Attorneys Inc is a dynamic and innovative law firm specializing in a wide range of legal services.
+          We are dedicated to offering forward-thinking legal solutions, providing efficient and accessible legal
+          services to individuals and businesses across South Africa.
+        </p>
+      </div>
+      <div class="col col-right">
+        <img src="about-photo.jpg" alt="Legal team consultation" class="reveal" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section services fade-up">
+    <div class="container">
+      <h2>Our Services</h2>
+      <p class="section-sub">Comprehensive legal services tailored to your needs.</p>
+
+      <div class="service-grid">
+        <div class="service-card reveal"><div class="icon">⚖️</div><h3>Litigation</h3><p>Representation in civil and commercial disputes.</p></div>
+        <div class="service-card reveal"><div class="icon">📜</div><h3>Estates</h3><p>Estate planning and administration services.</p></div>
+        <div class="service-card reveal"><div class="icon">🏠</div><h3>Transfer of Properties</h3><p>Property transfers and conveyancing support.</p></div>
+        <div class="service-card reveal"><div class="icon">👪</div><h3>Family Law</h3><p>Divorce, custody, and family legal matters.</p></div>
+        <div class="service-card reveal"><div class="icon">📝</div><h3>Contracts</h3><p>Drafting and reviewing contracts for clients.</p></div>
+        <div class="service-card reveal"><div class="icon">🚑</div><h3>Personal Injury Claims</h3><p>Compensation and claims representation.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section id="reviews" class="section reviews fade-up">
+    <div class="container">
+      <h2>Reviews</h2>
+      <div class="reviews-grid">
+        <blockquote class="testimonial reveal"><p>“Professional and efficient service. Highly recommended.”</p><footer>— Client</footer></blockquote>
+        <blockquote class="testimonial reveal"><p>“A modern law firm with great attention to detail.”</p><footer>— Client</footer></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact fade-up">
+    <div class="container two-col">
+      <div class="col col-left">
+        <h2>Contact Us</h2>
+        <ul class="contact-list">
+          <li><strong>Phone:</strong> <a href="tel:+27735355074">073 535 5074</a></li>
+          <li><strong>Address:</strong> 185 Calanbria Rd, Mondeor, Johannesburg South, 2091</li>
+          <li><strong>Hours:</strong> Mon–Fri: 8:00 am–4:30 pm</li>
+        </ul>
+        <form id="contactForm" class="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="btn primary">Send Message</button>
+          <p id="formStatus"></p>
+        </form>
+      </div>
+      <div class="col col-right">
+        <iframe title="Map" src="https://www.google.com/maps?q=185+Calanbria+Rd+Mondeor+Johannesburg+South+2091&output=embed" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer fade-up">
+    <div class="container footer-inner">
+      <p>© <span id="currentYear"></span> Magidi Attorneys Inc. All rights reserved.</p>
+      <a href="https://www.instagram.com/magidi_attorneys_inc/" target="_blank" class="icon-btn">Instagram</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
