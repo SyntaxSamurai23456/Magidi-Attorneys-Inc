@@ -34,4 +34,12 @@ document.addEventListener("DOMContentLoaded", () => {
       }, 800);
     });
   }
+
+  // Mobile nav toggle
+  const navToggle = document.getElementById("nav-toggle");
+  const mainNav = document.getElementById("main-nav");
+  navToggle.addEventListener("click", () => {
+    mainNav.classList.toggle("active");
+  });
 });
+
